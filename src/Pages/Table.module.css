@@ -1,0 +1,18 @@
+/* UserTable.module.css */
+.table {
+  table-layout: fixed; /* Giữ nguyên kích thước cột */
+  width: 100%; /* Bảng chiếm hết chiều ngang */
+}
+
+.th,
+.td {
+  text-align: center; /* Canh giữa nội dung */
+  overflow: hidden; /* Đảm bảo nội dung không vượt quá cột */
+  white-space: nowrap; /* Không xuống dòng */
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
